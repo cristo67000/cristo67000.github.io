@@ -10,7 +10,8 @@
     :root { color-scheme: light dark; }
     body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
     h1 { font-size: 22px; }
-    ul { list-style: none; padding: 0; }
+    h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.6; margin: 28px 0 8px; }
+    ul { list-style: none; padding: 0; margin: 0; }
     li { margin: 10px 0; padding: 12px 14px; border: 1px solid #8883; border-radius: 10px; }
     a { font-weight: 600; text-decoration: none; }
     a:hover { text-decoration: underline; }
@@ -19,16 +20,28 @@
   </style>
 </head>
 <body>
-  <h1>Applications cartographiques</h1>
+  <h1>Applications</h1>
+
+  <p class="d">Applications web installables, qui fonctionnent sans réseau et ne
+    collectent rien. Chacune s'ouvre directement dans le navigateur.</p>
+
+  <h2>Cartes</h2>
   <ul>
     <li><a href="/sites-templiers/">Sites Templiers</a><p class="d">Commanderies, chapelles et forteresses de l'ordre du Temple en France.</p></li>
     <li><a href="/chateaux-de-france/">Châteaux de France</a><p class="d">213 châteaux : typologie, chronologies, plans et vues anciennes.</p></li>
     <li><a href="/cathedrales-eglises-france/">Cathédrales et Églises de France</a><p class="d">285 édifices religieux d'avant 1800.</p></li>
     <li><a href="/quel-departement-France/">Départements de France</a><p class="d">Carte des 96 départements métropolitains.</p></li>
     <li><a href="/in-welchem-bundesland/">In welchem Bundesland?</a><p class="d">Carte des 16 Länder allemands.</p></li>
-    <li><a href="/strasbourg-eurometropole/">Strasbourg Eurométropole</a><p class="d">Carte hors ligne de l'Eurométropole de Strasbourg.</p></li>
-    <li><a href="/marees-france/">Marées France</a><p class="d">Horaires de marées hors ligne, calés SHOM.</p></li>
+    <li><a href="/strasbourg-eurometropole/">Strasbourg &amp; Eurométropole</a><p class="d">Carte hors ligne de l'Eurométropole de Strasbourg.</p></li>
+    <li><a href="/marees-france/">Phares et Marées en France</a><p class="d">Horaires de marées hors ligne, calés SHOM.</p></li>
+    <li><a href="/envies-de-voyage/">Mes envies de voyage</a><p class="d">Carnet de repérage personnel : vos envies de visite sur une carte vierge.</p></li>
   </ul>
+
+  <h2>Langues</h2>
+  <ul>
+    <li><a href="/wortschatz/">Wortschatz</a><p class="d">Dictionnaire français ⇄ allemand hors ligne et mémorisation par répétition espacée.</p></li>
+  </ul>
+
   <footer>Ce site ne sert que d'index et héberge les fichiers <code>/.well-known/</code>
     nécessaires à la vérification Android (Digital Asset Links) des applications
     ci-dessus. Aucune donnée personnelle n'est collectée ici.</footer>
